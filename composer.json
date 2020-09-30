@@ -1,7 +1,7 @@
 {
-    "name": "saintsystems/odata-client",
-    "version": "0.5.2",
-    "description": "Saint Systems OData Client for PHP",
+    "name": "clandestine8/odata-client",
+    "version": "0.5.3",
+    "description": "Fork of Saint Systems OData Client for PHP",
     "keywords": ["odata", "rest", "php"],
     "homepage": "https://github.com/saintsystems/odata-client-php",
     "license": "MIT",
@@ -14,12 +14,12 @@
     ],
     "require": {
         "php": "^7.2",
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^7.0.1",
         "nesbot/carbon": "^2.0",
-        "illuminate/support": "^5.8 || ^6.0 || ^7.0"
+        "illuminate/support": "^5.8 || ^6.0 || ^7.0 || ^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "files": [
